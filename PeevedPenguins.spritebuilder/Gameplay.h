@@ -12,6 +12,7 @@
 @interface Gameplay : CCNode {
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
+    CCNode *_levelNode;
 }
 
 @end
